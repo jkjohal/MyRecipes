@@ -1,19 +1,50 @@
-# Project Title
+# Recipe Cook Book
 
-## Team members
-- Roland
-- Eddie
-- Susannah
-- Jake
+## Description
 
-## Concept 
-San Franciscan contrarian Conference attendee Chamath-like, sketchy venture capitalist. Twitch streaming esports team’s series C. SPAC leading Testflight user. Defence-contracting Tel Aviv startup accelerator. Microdosing CryptoPunk rationalist.
+A website for healthier food content. 
+  
+ ## User Story 
 
-## User Flow and Wire Frames
-![Alt text](https://designli.co/blog/wp-content/uploads/2022/01/User-Registration-Flowchart-1024x785.png)
-[Learn More](https://designli.co/blog/user-flow-for-app-development-a-beginners-guide/)
+* Must use Node.js and Express.js to create a RESTful API
+* Must use Handlebars.js as the template engine
+* Must use MySQL and the Sequelize ORM for the database
+* Must have both GET and POST routes for retrieving and adding new data
+* Must use at least one new library, package, or technology that we haven’t discussed
+* Must have a folder structure that meets the MVC paradigm
+* Must include authentication (express-session and cookies) 
+* Must protect API keys and sensitive information with environment variables
 
-## Technologies
-- d3.js Data viz
-- leaflet.js mapping
-- three.js webgl
+
+## Technology 
+  - Node 
+  - Express
+  - MySql 
+  - Sequelize 
+  - Restful api 
+  - Heroku
+  - Handlebars
+  - MVC
+  
+## Potential technologies/libraries/packages
+
+  - cleave.js
+  - winston 
+  - day.js
+
+## Task
+
+* Must use Node.js and Express.js to create a RESTful API
+* Must use Handlebars.js as the template engine
+* Must use MySQL and the Sequelize ORM for the database
+* Must have both GET and POST routes for retrieving and adding new data
+* Must use at least one new library, package, or technology that we haven’t discussed
+* Must have a folder structure that meets the MVC paradigm
+* Must include authentication (express-session and cookies) 
+* Must protect API keys and sensitive information with environment variables
+
+## Contributers 
+
+- Hernan 
+- Jeevan
+- Dionne
