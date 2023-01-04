@@ -1,12 +1,10 @@
 const router = require('express').Router();
+const apiRoutes = require('./api');
 
-router.get('/', function(req, res) {
-    res.render('index', { title: 'Home' });
-});
+router.use('/api', apiRoutes);
 
-router.post('/authenticateLogin', function(req, res){
-    console.log("Authenticating 1!");
-    res.send('number one!');
+router.use((req, res) => {
+  res.send("<h1>Wrong Route!</h1>")
 });
 
 module.exports = router;
