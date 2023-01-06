@@ -1,0 +1,10 @@
+<section class="container">
+  <h3 class="title">{{article.title}}</h3>
+  <h4>Description: {{article.description}}</h4>
+  <h4>Ingredients: {{article.ingredients}}</h4>
+  <section class="flex-row justify-center">
+    {{#each article.comment as |comment|}}
+    {{> comment-details}}
+    {{/each}}
+  </section>
+</section>
