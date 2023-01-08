@@ -1,3 +1,15 @@
-{{#each articles as |article|}}
-{{> article-details}}
+<!-- Loop over each object in the projects array -->
+{{#each recipes as |recipe| }}
+
+<div class="card recipe" style="width: 35rem;">
+  <div class="card-body">
+    <h2 class="card-title"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h2>
+
+    <h5 class="card-subtitle mb-2 text-muted">Calories per serving: {{ calories }}</h5>
+    <h5>Description:</h5>
+    <p class="card-text">{{ description }}</p>
+    <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
+  </div>
+</div>
+
 {{/each}}

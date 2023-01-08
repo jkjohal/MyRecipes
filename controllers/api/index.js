@@ -1,12 +1,8 @@
-const express = require("express");
-const app =express();
-const PORT = 3001;
+const router = require('express').Router();
+const userRoutes = require('./userRoutes');
+const recipeRoutes = require('./recipeRoutes');
 
-const userRoute = require("./api/User");
-const commentsRoute = require("./api/Comments");
-app.use("/user", userRoute);
-app.use("/comments", commentsRoute);
+router.use('/users', userRoutes);
+router.use('/recipe', recipeRoutes);
 
-app.listen(PORT, () => {
-    console.log("Server running");
-});
+module.exports = router;
