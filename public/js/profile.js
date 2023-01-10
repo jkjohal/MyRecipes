@@ -61,4 +61,4 @@ document
   .querySelector('.recipe-list')
   .addEventListener('click', delButtonHandler);
 
-showCurrentDate()
+showCurrentDate();

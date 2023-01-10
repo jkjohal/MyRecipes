@@ -46,6 +46,7 @@ body {
 
 }
 
-.card {
+.card, .text-center {
   background-color: antiquewhite;
 }
+
