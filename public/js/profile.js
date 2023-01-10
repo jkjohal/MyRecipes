@@ -46,6 +46,13 @@ const delButtonHandler = async (event) => {
   }
 };
 
+var now = dayjs()
+
+function showCurrentDate(){
+  const currentDate = document.getElementById("current-date")
+  currentDate.textContent = "It is currently " + now
+};
+
 document
   .querySelector('.new-recipe-form')
   .addEventListener('submit', newFormHandler);
@@ -53,3 +60,5 @@ document
 document
   .querySelector('.recipe-list')
   .addEventListener('click', delButtonHandler);
+
+showCurrentDate()
