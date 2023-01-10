@@ -41,7 +41,11 @@ body {
 
 }
 
-.body-text{
+.body-text, .text-center, .card, .form, .row, .recipe-list {
   font-family: Cutive Mono;
 
+}
+
+.card {
+  background-color: antiquewhite;
 }
