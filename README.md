@@ -7,7 +7,7 @@ MyRecipes! is a site where you can create a profile and add your favorite recipe
 <img width="563" alt="image" src="https://user-images.githubusercontent.com/112898278/211725736-69f99c45-4f9e-4a38-8db0-b7968ea4dced.png">
 
 
-[Deployed application](https://myrecipes-cook-book.herokuapp.com/)
+## [Deployed application](https://myrecipes-cook-book.herokuapp.com/)
   
  ## User Story 
 
