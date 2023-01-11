@@ -8,6 +8,8 @@ MyRecipes! is a site where you can create a profile and add your favorite recipe
 
 
 LINK TO DEPLOYED SITE
+
+https://recipe-card-app.herokuapp.com/
   
  ## User Story 
 
