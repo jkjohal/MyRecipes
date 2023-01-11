@@ -30,3 +30,23 @@ header, .project:not(:last-child) {
   border-radius: 6px;
   border: solid 4px;
 }
+
+body {
+  background-image: url(https://browsecat.art/sites/default/files/food-pattern-background-127676-564564-7093829.png) ;
+
+}
+
+.site-title {
+  font-family: Concert One;
+
+}
+
+.body-text, .text-center, .card, .form, .row, .recipe-list {
+  font-family: Cutive Mono;
+
+}
+
+.card, .text-center {
+  background-color: antiquewhite;
+}
+

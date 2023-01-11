@@ -25,7 +25,7 @@ Recipe.init(
     },
     instructions: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     calories: {
       type: DataTypes.INTEGER,

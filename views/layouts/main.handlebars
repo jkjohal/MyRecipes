@@ -7,16 +7,18 @@
   <title>Recipes!</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Concert+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono">
 </head>
 
 <body>
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <a href="/">Recipes!</a>
+      <h1 class = "site-title">
+        <a href="/">MyRecipes!</a>
       </h1>
+      <div class="body-text">
       <nav>
-        <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">profile</a> |
         <button class="no-button" id="logout">logout</button>
@@ -26,18 +28,14 @@
       </nav>
     </header>
     <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
       {{{ body }}}
     </main>
-    <footer>
-
-    </footer>
   </div>
 
-  <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  </div>
 </body>
 
 </html>
