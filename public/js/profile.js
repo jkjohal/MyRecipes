@@ -7,8 +7,6 @@ const newFormHandler = async (event) => {
   const ingredients = document.querySelector('#recipe-ingredients').value.trim();
   const instructions = document.querySelector('#recipe-instructions').value.trim();
 
-  console.log(instructions)
-
   if (name && calories && description && ingredients) {
     const response = await fetch(`/api/recipe`, {
       method: 'POST',
