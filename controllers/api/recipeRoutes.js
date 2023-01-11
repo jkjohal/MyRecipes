@@ -3,6 +3,7 @@ const { Recipe } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
+  console.log("req.bodyis  \n " ,req.body)
   try {
     const newRecipe = await Recipe.create({
       ...req.body,
